@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div class="topo">
+      <div class="topo-mobile">
+        <div>
+          <ion-icon name="logo-instagram" class="icon"></ion-icon>
+        </div>
+        <div>
+          <img src="imagens/logo.png" class="logo-texto" />
+        </div>
+        <div>
+          <ion-icon name="paper-plane-outline" class="icon"></ion-icon>
+        </div>
+      </div>
+
+      <div class="alinhador">
+        <div class="logo-container">
+          <ion-icon name="logo-instagram" class="logo"></ion-icon>
+          <div class="linha-vertical"></div>
+          <img src="imagens/logo.png" class="logo-texto" />
+        </div>
+        <div class="barra-de-pesquisa">
+          <input type="text" name="" class="barra" placeholder="Pesquisar" />
+        </div>
+        <div class="icones-barra">
+          <ion-icon name="paper-plane-outline" class="icon"></ion-icon>
+          <ion-icon name="compass-outline" class="icon"></ion-icon>
+          <ion-icon name="heart-outline" class="icon"></ion-icon>
+          <ion-icon name="person-outline" class="icon"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <!--div "pagina" abrangendo tudo e sendo a referência-->
+    <div class="pagina">
+      <!--div pra delimitar a área de conteudo da pagina-->
+      <div class="alinhador-pagina">
+        <div class="esquerda-pagina">
+          <div class="stories borda-tudo">
+            <div class="storie-agrupado">
+              <img src="imagens/cato2.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato</h6>
+            </div>
+
+            <div class="storie-agrupado">
+              <img src="imagens/cato3.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato_2</h6>
+            </div>
+
+            <div class="storie-agrupado">
+              <img src="imagens/cato4.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato_3</h6>
+            </div>
+
+            <div class="storie-agrupado">
+              <img src="imagens/cato5.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato_4</h6>
+            </div>
+
+            <div class="storie-agrupado">
+              <img src="imagens/cato6.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato_5</h6>
+            </div>
+
+            <div class="storie-agrupado">
+              <img src="imagens/cato3.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato_6</h6>
+            </div>
+
+            <div class="storie-agrupado">
+              <img src="imagens/cato.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato_7</h6>
+            </div>
+
+            <div class="storie-agrupado">
+              <img src="imagens/cato2.jpg" class="pfp" />
+              <img src="imagens/stories_background.jpg" class="pfps" />
+              <h6>cato_8</h6>
+            </div>
+
+            <ion-icon
+              name="chevron-forward-circle-sharp"
+              class="seta"
+            ></ion-icon>
+          </div>
+
+          <div class="post">
+            <div class="post-fora">
+              <div>
+                <img src="imagens/cato2.jpg" />
+                <h5 class="user-post">cato</h5>
+              </div>
+            </div>
+
+            <div class="postagem">
+              <video width="614" height="300" autoplay muted>
+                <source src="imagens/video.mp4" type="video/mp4" />
+                <source src="imagens/video.ogv" type="video/ogg" />
+                Seu navegador não suporta esse formato de vídeo
+              </video>
+            </div>
+
+            <div class="post-fora baixo">
+              <div class="icones-baixo">
+                <div>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icon icon-post"
+                  ></ion-icon>
+                  <ion-icon name="chatbubble-outline" class="icon"></ion-icon>
+                  <ion-icon name="paper-plane-outline" class="icon"></ion-icon>
+                </div>
+                <div>
+                  <ion-icon name="bookmark-outline" class="icondif"></ion-icon>
+                </div>
+              </div>
+
+              <div class="curtidas-div">
+                <div>
+                  <img src="imagens/cato2.jpg" />
+                </div>
+                <div>
+                  <h4>Curtido por</h4>
+                  <strong> cato </strong>
+                  <h4>e</h4>
+                  <strong> outras 8.000.000.000 pessoas </strong>
+                </div>
+              </div>
+
+              <div class="com">
+                <div class="ver-comments">Ver todos os comentários</div>
+                <div class="comments">
+                  <strong> cato </strong>
+                  <h4>'o' 'o' 'o'</h4>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icondif com-icon"
+                  ></ion-icon>
+                </div>
+
+                <div class="comments">
+                  <strong> cato </strong>
+                  <h4>'o' 'o' 'o'</h4>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icondif com-icon"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+            <div class="comment-user">
+              <div class="teste">
+                <ion-icon name="happy-outline" class="emoji"></ion-icon>
+                <input
+                  type="text"
+                  placeholder="Escreva um comentário.."
+                  class="comment"
+                />
+              </div>
+
+              <div>
+                <button>Publicar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="post-fora">
+              <div>
+                <img src="imagens/cato2.jpg" />
+                <h5 class="user-post">cato</h5>
+              </div>
+            </div>
+
+            <div>
+              <img src="imagens/cato4.jpg" alt="" />
+            </div>
+
+            <div class="post-fora baixo">
+              <div class="icones-baixo">
+                <div>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icon icon-post"
+                  ></ion-icon>
+                  <ion-icon name="chatbubble-outline" class="icon"></ion-icon>
+                  <ion-icon name="paper-plane-outline" class="icon"></ion-icon>
+                </div>
+                <div>
+                  <ion-icon name="bookmark-outline" class="icondif"></ion-icon>
+                </div>
+              </div>
+
+              <div class="curtidas-div">
+                <div>
+                  <img src="imagens/cato2.jpg" />
+                </div>
+                <div>
+                  <h4>Curtido por</h4>
+                  <strong> cato </strong>
+                  <h4>e</h4>
+                  <strong> outras 8.000.000.000 pessoas </strong>
+                </div>
+              </div>
+
+              <div class="com">
+                <div class="ver-comments">Ver todos os comentários</div>
+                <div class="comments">
+                  <strong> cato </strong>
+                  <h4>'o' 'o' 'o'</h4>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icondif com-icon"
+                  ></ion-icon>
+                </div>
+
+                <div class="comments">
+                  <strong> cato </strong>
+                  <h4>'o' 'o' 'o'</h4>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icondif com-icon"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+
+            <div class="comment-user">
+              <div class="teste">
+                <ion-icon name="happy-outline" class="emoji"></ion-icon>
+                <input
+                  type="text"
+                  placeholder="Escreva um comentário.."
+                  class="comment"
+                />
+              </div>
+
+              <div>
+                <button>Publicar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="post-fora">
+              <div>
+                <img src="imagens/cato2.jpg" />
+                <h5 class="user-post">cato</h5>
+              </div>
+            </div>
+
+            <div>
+              <img src="imagens/cato5.jpg" alt="" />
+            </div>
+
+            <div class="post-fora baixo">
+              <div class="icones-baixo">
+                <div>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icon icon-post"
+                  ></ion-icon>
+                  <ion-icon name="chatbubble-outline" class="icon"></ion-icon>
+                  <ion-icon name="paper-plane-outline" class="icon"></ion-icon>
+                </div>
+                <div>
+                  <ion-icon name="bookmark-outline" class="icondif"></ion-icon>
+                </div>
+              </div>
+
+              <div class="curtidas-div">
+                <div>
+                  <img src="imagens/cato2.jpg" />
+                </div>
+                <div>
+                  <h4>Curtido por</h4>
+                  <strong> cato </strong>
+                  <h4>e</h4>
+                  <strong> outras 8.000.000.000 pessoas </strong>
+                </div>
+              </div>
+
+              <div class="com">
+                <div class="ver-comments">Ver todos os comentários</div>
+                <div class="comments">
+                  <strong> cato </strong>
+                  <h4>'o' 'o' 'o'</h4>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icondif com-icon"
+                  ></ion-icon>
+                </div>
+
+                <div class="comments">
+                  <strong> cato </strong>
+                  <h4>'o' 'o' 'o'</h4>
+                  <ion-icon
+                    name="heart-outline"
+                    class="icondif com-icon"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+
+            <div class="comment-user">
+              <div class="teste">
+                <ion-icon name="happy-outline" class="emoji"></ion-icon>
+                <input
+                  type="text"
+                  placeholder="Escreva um comentário.."
+                  class="comment"
+                />
+              </div>
+
+              <div>
+                <button>Publicar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="barra-lateral">
+          <div class="perfil">
+            <div>
+              <img src="imagens/cato2.jpg" class="pfp" />
+            </div>
+            <div class="user-nome">
+              <h4 class="user-post">cato</h4>
+              <h3>Cato</h3>
+            </div>
+          </div>
+
+          <div class="sugestoes">
+            <div>
+              Sugestões para você
+            </div>
+
+            <div>
+              Ver tudo
+            </div>
+          </div>
+
+          <div class="perfis">
+            <div>
+              <img src="imagens/cato2.jpg" />
+              <div class="perfil-sugerido">
+                <h4 class="user-post">cato</h4>
+                <span class="segue"> Segue você </span>
+              </div>
+
+              <div class="seguir">
+                Seguir
+              </div>
+            </div>
+
+            <div>
+              <img src="imagens/cato2.jpg" />
+              <div class="perfil-sugerido">
+                <h4 class="user-post">cato</h4>
+                <span class="segue"> Segue você </span>
+              </div>
+
+              <div class="seguir">
+                Seguir
+              </div>
+            </div>
+            <div>
+              <img src="imagens/cato2.jpg" />
+              <div class="perfil-sugerido">
+                <h4 class="user-post">cato</h4>
+                <span class="segue"> Segue você </span>
+              </div>
+
+              <div class="seguir">
+                Seguir
+              </div>
+            </div>
+            <div>
+              <img src="imagens/cato2.jpg" />
+              <div class="perfil-sugerido">
+                <h4 class="user-post">cato</h4>
+                <span class="segue"> Segue você </span>
+              </div>
+
+              <div class="seguir">
+                Seguir
+              </div>
+            </div>
+            <div>
+              <img src="imagens/cato2.jpg" />
+              <div class="perfil-sugerido">
+                <h4 class="user-post">cato</h4>
+                <span class="segue"> Segue você </span>
+              </div>
+
+              <div class="seguir">
+                Seguir
+              </div>
+            </div>
+          </div>
+
+          <div class="sobre">
+            <div>
+              Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos
+              • Localizações • Contas mais relevantes • Hashtags • Idioma
+            </div>
+
+            <div>
+              © 2021 INSTAGRAM DO FACEBOOK
+            </div>
+          </div>
+        </div>
+
+        <div class="barra-mobile">
+          <div><ion-icon name="home-outline" class="icon"></ion-icon></div>
+          <div><ion-icon name="search-outline" class="icon"></ion-icon></div>
+          <div>
+            <ion-icon name="add-circle-outline" class="icon"></ion-icon>
+          </div>
+          <div><ion-icon name="heart-outline" class="icon"></ion-icon></div>
+          <div><ion-icon name="person-outline" class="icon"></ion-icon></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>
