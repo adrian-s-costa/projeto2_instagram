@@ -147,6 +147,11 @@ body {
     width: 100%;
     background-size: cover;
   }
+
+  video {
+    width: 100%;
+    background-size: cover;
+  }
   
   .seta {
     color: #dbdbdb;
