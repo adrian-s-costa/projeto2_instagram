@@ -148,7 +148,7 @@ body {
     background-size: cover;
   }
 
-  video {
+  .post-video {
     width: 100%;
     background-size: cover;
   }
@@ -480,6 +480,11 @@ body {
   
     .barra-mobile {
       display: none;
+    }
+    
+    .post-video {
+      width: 100%;
+      background-size: cover;
     }
   }
   
